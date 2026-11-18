@@ -1,0 +1,169 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+
+    <style>
+        * {
+            margin: 6px 12px;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        header {
+            background-color: #222;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #444;
+            padding: 15px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 15px;
+        }
+
+        section {
+            padding: 40px;
+            margin: 20px;
+            background-color: white;
+            border-radius: 10px;
+        }
+
+        h2 {
+            color: #007bff;
+            margin-bottom: 15px;
+        }
+
+        .skills {
+            display: flex;
+            gap: 15px;
+            flex-wrap: wrap;
+        }
+
+        .skills span {
+            background-color: #222;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 5px;
+        }
+
+        footer {
+            background-color: #222;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Prachi Rajput</h1>
+        <p>Computer Science Student | Aspiring Software Developer</p>
+    </header>
+
+    <nav>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>
+            Hello! I am a first-year B.Tech Computer Science student.
+            I am passionate about technology, programming,
+            and learning new skills.
+        </p>
+    </section>
+
+    <section id="skills">
+        <h2>My Skills</h2>
+
+        <div class="skills">
+    <span>C</span>
+    <span>C++</span>
+    <span>HTML</span>
+    <span>CSS</span>
+
+            <span>DaVinci Resolve</span>
+    <button onclick="openFootball()">Blender - Football</button>
+
+    <button onclick="openDoughnut()">Blender - Doughnut</button>
+</div>
+
+<script>
+    function openFootball() {
+        window.open(
+            "https://res.cloudinary.com/hjjomng5/image/upload/f_auto,q_auto/football",
+            "_blank"
+        );
+    }
+
+    function openDoughnut() {
+        window.open(
+            "https://res.cloudinary.com/hjjomng5/image/upload/f_auto,q_auto/Doughnut",
+            "_blank"
+        );
+    }
+</script>
+
+        </div>
+    </section>
+
+    <section id="projects">
+        <h2>My Projects</h2>
+
+        <h3>1. Snake Game</h3>
+        <p>
+            <a href="https://pixelserpent.netlify.app/" target="_blank" rel="noopener noreferrer">A simple snake game was developed using C.</a>
+        </p>
+
+        <h3>2. Janiye AI</h3>
+        <p>An AI-powered study assistant for students.</p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+
+        <p>Email: rajputprachi3111@gmail.com</p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/rajputprachi3111">Connect with me</a></p>
+
+        <p>
+            GitHub:
+            <a href="https://github.com/rajputprachi3111-netizen">
+                Visit My GitHub
+            </a>
+        </p>
+        <p>
+            Unstop:
+            <a href="https://unstop.com/u/prachvis70161">
+                Visit My Unstop Profile
+            </a>
+        </p>
+    </section>
+
+    <footer>
+        <p>© 2026 Prachi Rajput | My Portfolio</p>
+    </footer>
+
+</body>
+</html>
